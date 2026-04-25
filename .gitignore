@@ -1,43 +1,62 @@
-*.iml
-.gradle
+# --- Android Standard ---
+build/
+bin/
+gen/
+out/
+.gradle/
+app/build/
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.setting/
-/build
-/app/build
-/.externalNativeBuild
-/.cxx
-/captures
 /android-sdk/
 
-# AI Agent Specific Files
+# --- IntelliJ/Android Studio ---
+.idea/
+*.iml
+*.iws
+*.ipr
+/captures/
+.externalNativeBuild/
+.cxx/
+cmake-build-*/
+.navigation/
+
+# --- Gradle ---
+.gradle/
+build/
+/*/build/
+
+# --- AI & Agent Workspace (Project Specific) ---
 AI_LOCAL_ONLY.md
 AGENTS.md
+.gemini/
 docs/ai_instructions/
+docs/superpowers/plans/
+docs/superpowers/specs/
 
-# External Gradle
-gradle-8.7/
-gradle-8.7-bin.zip
-.gradle-local/
-gradle-8.7-bin.zip
+# --- External Distributions & Large Files ---
+gradle-*/
+*.zip
+*.tar
+*.gz
+*.rar
 
-# Keystores
+# --- Keystores & Secrets ---
 *.jks
 *.keystore
 !debug.keystore
-
-# Google Services
 google-services.json
 
-# Lint
-lint/intermediate/
-lint/generated/
-
-# OS Specific
+# --- OS Specific ---
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# --- Miscellaneous ---
+*.log
+*.swp
+*~
+.temp
+.tmp
