@@ -24,6 +24,7 @@ docs/ai_instructions/
 gradle-8.7/
 gradle-8.7-bin.zip
 .gradle-local/
+gradle-8.7-bin.zip
 
 # Keystores
 *.jks
