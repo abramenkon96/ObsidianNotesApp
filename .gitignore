@@ -6,10 +6,38 @@
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
-/.idea/assetWizard.settings.xml
-.DS_Store
+/.idea/assetWizardSettings.xml
+.setting/
 /build
+/app/build
+/.externalNativeBuild
+/.cxx
 /captures
-.externalNativeBuild
-.cxx
-local.properties
+/android-sdk/
+
+# AI Agent Specific Files
+AI_LOCAL_ONLY.md
+AGENTS.md
+docs/ai_instructions/
+
+# External Gradle
+gradle-8.7/
+gradle-8.7-bin.zip
+.gradle-local/
+gradle-8.7-bin.zip
+
+# Keystores
+*.jks
+*.keystore
+!debug.keystore
+
+# Google Services
+google-services.json
+
+# Lint
+lint/intermediate/
+lint/generated/
+
+# OS Specific
+.DS_Store
+Thumbs.db
