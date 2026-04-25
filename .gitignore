@@ -24,13 +24,16 @@ cmake-build-*/
 build/
 /*/build/
 
-# --- AI & Agent Workspace (Project Specific) ---
-AI_LOCAL_ONLY.md
-AGENTS.md
+# --- AI & Agent Workspace (Scalable Patterns) ---
+# Игнорируем любые файлы ИИ по паттернам имен
+[Aa][Ii]_*
+*[Aa][Gg][Ee][Nn][Tt]*
+*.agent.md
 .gemini/
+.claude/
+.cursor/
 docs/ai_instructions/
-docs/superpowers/plans/
-docs/superpowers/specs/
+docs/superpowers/
 
 # --- External Distributions & Large Files ---
 gradle-*/
