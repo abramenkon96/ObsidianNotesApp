@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Obsidian Notes</string>
+    <string name="select_folder">Выбрать папку</string>
+    <string name="archive">Архив</string>
+    <string name="settings">Настройки</string>
+    <string name="pinned_notes">Закрепленные заметки</string>
+</resources>
